@@ -1,0 +1,31 @@
+@use '../abstracts/vars';
+
+// inverts padding
+*{
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 1em;
+}
+
+body{
+    background-color: vars.$color_white;
+    font-size: 1rem;
+    color: vars.$color_black;
+    font-family: vars.$primaryFont;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: vars.$color_black;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+
+
